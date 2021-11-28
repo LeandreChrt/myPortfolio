@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: white;
+  background-color: #1a1a1a;
+}
+
+.App {
+  height: 100vh;
+}
+
+nav {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 50vw;
+  height: 60px;
+  background-color: inherit;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  background-color: inherit;
+}
+
+#nav {
+  background-color: black;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 13px 13px -7px #a5a5a5, 0px 10px 15px 0px black;
+          box-shadow: 0px 13px 13px -7px #a5a5a5, 0px 10px 15px 0px black;
+}
+
+#language, .nav_element {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  height: 20px;
+  text-align: center;
+  width: 100px;
+  background-color: inherit;
+}
+
+#language {
+  margin: 15px;
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #5c5c5c;
+  height: 30px;
+}
+
+#language select {
+  padding: 6px 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  line-height: inherit;
+  color: white;
+}
+
+.nav_element {
+  padding: 20px;
+}
+
+.nav_element:hover, .nav_element:hover span {
+  background-color: #313131;
+  color: #bebebe;
+}
+
+.selected {
+  color: #585858;
+  cursor: default;
+}
+
+.selected:hover, .selected:hover span {
+  background-color: black;
+  color: #585858;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grid_row {
+  grid-column: span 12;
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+}
+
+.grid_col-1-dekstop {
+  grid-column: span 1;
+  padding: 5px;
+}
+
+.grid_col-2-dekstop {
+  grid-column: span 2;
+  padding: 5px;
+}
+
+.grid_col-3-dekstop {
+  grid-column: span 3;
+  padding: 5px;
+}
+
+.grid_col-4-dekstop {
+  grid-column: span 4;
+  padding: 5px;
+}
+
+.grid_col-5-dekstop {
+  grid-column: span 5;
+  padding: 5px;
+}
+
+.grid_col-6-dekstop {
+  grid-column: span 6;
+  padding: 5px;
+}
+
+.grid_col-7-dekstop {
+  grid-column: span 7;
+  padding: 5px;
+}
+
+.grid_col-8-dekstop {
+  grid-column: span 8;
+  padding: 5px;
+}
+
+.grid_col-9-dekstop {
+  grid-column: span 9;
+  padding: 5px;
+}
+
+.grid_col-10-dekstop {
+  grid-column: span 10;
+  padding: 5px;
+}
+
+.grid_col-11-dekstop {
+  grid-column: span 11;
+  padding: 5px;
+}
+
+.grid_col-12-dekstop {
+  grid-column: span 12;
+  padding: 5px;
+}
+
+.grid_child {
+  height: calc(100vh - 105px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.grid_child_subfloor {
+  height: 70%;
+  width: 60%;
+  margin: auto;
+  background-color: gray;
+  border-radius: 15px;
+  padding: 10px;
+  min-height: 120px;
+}
+
+.grid_child_subfloor_child {
+  height: 100%;
+  width: 100% !important;
+}
+
+.grid_child_subfloor_child div {
+  background-color: gray;
+}
+
+.grid_infos {
+  height: 20%;
+}
+
+.content {
+  font-size: 12px;
+}
+
+.content_left {
+  text-align: start;
+}
+
+.content_right {
+  text-align: end;
+}
+
+.formation_title {
+  border: #555555 1px solid;
+  padding: 20px 0;
+}
+
+#formations {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.text-transition_inner div {
+  width: 100%;
+  white-space: pre-line;
+}
+/*# sourceMappingURL=App.css.map */
