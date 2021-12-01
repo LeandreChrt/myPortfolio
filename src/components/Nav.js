@@ -6,7 +6,7 @@ export default function Nav({ Language, Text, changeLanguage, Active }) {
     return (
         <div id="nav">
             <nav>
-                <Link to="/">
+                <Link to="/myPortfolio">
                     <p className={`nav_element ${Active === 0 ? 'selected' : ''}`}>{Text.nav.profile[Language]}</p>
                 </Link>
                 <Link to="/Projets">

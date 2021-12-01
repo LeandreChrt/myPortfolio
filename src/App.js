@@ -23,7 +23,7 @@ function App() {
       <div className="App">
         <Nav Language={Language} Text={Text} changeLanguage={changeLanguage} Active={Active} />
         <Routes>
-          <Route path="/" element={<Profil Language={Language} Text={Text} changActive={changActive} />}>
+          <Route path="/myPortfolio" element={<Profil Language={Language} Text={Text} changActive={changActive} />}>
           </Route>
           <Route path="/Projets" element={<Projets Language={Language} Text={Text} changActive={changActive} />}>
           </Route>
