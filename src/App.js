@@ -1,6 +1,6 @@
 import './style/App.css';
 import React, { useState } from "react"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Profil from './components/Profil';
 import Nav from './components/Nav';
 import Projets from './components/Projets';
@@ -19,11 +19,11 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename="/">
       <div className="App">
         <Nav Language={Language} Text={Text} changeLanguage={changeLanguage} Active={Active} />
         <Routes>
-          <Route path="/myPortfolio" element={<Profil Language={Language} Text={Text} changActive={changActive} />}>
+          <Route path="/" element={<Profil Language={Language} Text={Text} changActive={changActive} />}>
           </Route>
           <Route path="/Projets" element={<Projets Language={Language} Text={Text} changActive={changActive} />}>
           </Route>
