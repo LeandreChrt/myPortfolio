@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c0d884c1.chunk.css",
-    "main.js": "/portfolio/static/js/main.2a4deb6e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2a4deb6e.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
-    "static/js/2.7cdda553.chunk.js": "/portfolio/static/js/2.7cdda553.chunk.js",
-    "static/js/2.7cdda553.chunk.js.map": "/portfolio/static/js/2.7cdda553.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.c0d884c1.chunk.css.map": "/portfolio/static/css/main.c0d884c1.chunk.css.map",
-    "static/js/2.7cdda553.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7cdda553.chunk.js.LICENSE.txt",
-    "static/media/LeandreCHRETIENNOT.142ebb1d.jpg": "/portfolio/static/media/LeandreCHRETIENNOT.142ebb1d.jpg"
+    "main.css": "/myPortfolio/static/css/main.c0d884c1.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.2a4deb6e.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.2a4deb6e.chunk.js.map",
+    "runtime-main.js": "/myPortfolio/static/js/runtime-main.4dd54f8a.js",
+    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.4dd54f8a.js.map",
+    "static/js/2.7cdda553.chunk.js": "/myPortfolio/static/js/2.7cdda553.chunk.js",
+    "static/js/2.7cdda553.chunk.js.map": "/myPortfolio/static/js/2.7cdda553.chunk.js.map",
+    "index.html": "/myPortfolio/index.html",
+    "static/css/main.c0d884c1.chunk.css.map": "/myPortfolio/static/css/main.c0d884c1.chunk.css.map",
+    "static/js/2.7cdda553.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.7cdda553.chunk.js.LICENSE.txt",
+    "static/media/LeandreCHRETIENNOT.142ebb1d.jpg": "/myPortfolio/static/media/LeandreCHRETIENNOT.142ebb1d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.37da8305.js",
+    "static/js/runtime-main.4dd54f8a.js",
     "static/js/2.7cdda553.chunk.js",
     "static/css/main.c0d884c1.chunk.css",
     "static/js/main.2a4deb6e.chunk.js"
